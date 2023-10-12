@@ -1,0 +1,68 @@
+{
+  "name": "docsascode",
+  "displayName": "Docs as Code",
+  "description": "This extension employs ChatGPT to generate a Markdown file that contains a description of the current code. It then saves this Markdown file to a location within the workspace",
+  "version": "1.0.0",
+  "publisher": "rafaelmnatali",
+  "bugs": {
+    "url": "https://github.com/rafaelmnatali/docsascode/issues",
+    "email": "rafael.natali@gmail.com"
+  },
+  "homepage": "https://github.com/rafaelmnatali/docsascode/main/README.md",
+  "repository": {
+    "url": "https://github.com/rafaelmnatali/docsascode",
+    "type": "git"
+  },
+  "keywords": [
+    "openai",
+    "chatgpt",
+    "gpt",
+    "chat",
+    "ai",
+    "docsascode",
+    "document",
+    "documentation"
+  ],
+  "icon": "documents.jpg",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [],
+  "main": "./extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Docs as Code",
+      "properties": {
+        "docsascode.API Key": {
+          "type": "string",
+          "default": "",
+          "description": "OpenAI API key from https://platform.openai.com/account/api-keys"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "docsascode.create",
+        "title": "Docs as Code: Create Markdown File"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/node": "16.x",
+    "@types/vscode": "^1.83.0",
+    "@vscode/test-electron": "^2.3.4",
+    "eslint": "^8.47.0",
+    "glob": "^10.3.3",
+    "mocha": "^10.2.0",
+    "typescript": "^5.1.6"
+  }
+}

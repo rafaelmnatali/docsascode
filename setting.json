@@ -1,0 +1,12 @@
+{
+    "type": "object",
+    "title": "docsascode",
+    "properties": {
+      "API Key": {
+        "type": "string",
+        "default": "",
+        "description": "OpenAI API key from https://platform.openai.com/account/api-keys"
+      }
+    }
+  }
+  
