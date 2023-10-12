@@ -1,14 +1,10 @@
-# docsascode
-
-This extension allows you to interact with [ChatGPT](https://chat.openai.com/) from within the Visual Studio.
-
-## Features
+# DocsasCode-GPT
 
 This extension employs ChatGPT to generate a Markdown file that contains a description of the current code. It then saves this Markdown file to a location within the [workspace](https://code.visualstudio.com/docs/editor/workspaces).
 
 ## Requirements
 
-This extension was tested using `Visual Studio Code=1.82.0` and `Node.js=9.6.7`
+This extension was tested using `Visual Studio Code=1.83.1`
 
 See the [package.json](./package.json) file for details.
 
