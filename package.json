@@ -2,7 +2,7 @@
   "name": "docsascode",
   "displayName": "DocsasCode-GPT",
   "description": "This extension employs ChatGPT to generate a Markdown file that contains a description of the current code. It then saves this Markdown file to a location within the workspace",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "publisher": "rafaelmnatali",
   "icon": "documents.png",
   "bugs": {
