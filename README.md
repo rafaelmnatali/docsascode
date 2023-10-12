@@ -2,8 +2,6 @@
 
 This extension allows you to interact with [ChatGPT](https://chat.openai.com/) from within the Visual Studio.
 
-:warning: The presented solutions are intended for learning purposes. Hence, don't treat as production-ready.
-
 ## Features
 
 This extension employs ChatGPT to generate a Markdown file that contains a description of the current code. It then saves this Markdown file to a location within the [workspace](https://code.visualstudio.com/docs/editor/workspaces).
